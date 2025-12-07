@@ -1,0 +1,16 @@
+{
+    "live_odds_enabled": true,
+    "vertical_base_bankroll": 250,
+    "horizontal_base_bankroll": 500,
+    "monte_carlo_iterations": 100000,
+    "extractor_script": "apex_xml_extractor.py",
+    "cleaner_script": "apex_cleaner_v2.6.py",
+    "live_odds_script": "apex_live_odds_integrator_pp.py",
+    "mc_verticals_script": "verticals_mc_builder_v1_3.py",
+    "horizontal_script": "apex_horizontal_bankroll_v1_3.py",
+    "utf_builder_script": "utf_builder_v1_5.py",
+    "input_zip_folder": "input_zips",
+    "log_folder": "logs",
+    "report_folder": "out_reports",
+    "utf_output_folder": "UTF_Output"
+}

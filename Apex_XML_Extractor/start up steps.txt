@@ -1,0 +1,70 @@
+⭐ HOW YOU WILL USE THIS NIGHTLY
+⚙️ NIGHTLY WORKFLOW (3 STEPS)
+STEP 1 — Download the card ZIP
+
+Save the TrackMaster file into:
+
+C:\Apex\Apex_XML_Extractor\input_zips\
+
+
+Example:
+
+woodbine_12_01.zip
+
+STEP 2 — Enter live odds (optional)
+
+Open:
+
+live_odds.csv
+
+
+Paste lines like:
+
+race,pp,frac,dec,status
+1,7,2/1,3.0,
+1,3,8/1,9.0,
+1,1,SCR,0,SCR
+
+
+Apex detects scratches automatically.
+
+STEP 3 — DOUBLE-CLICK
+Run_Apex_Card.bat
+
+
+The runner will:
+
+Extract XML horses
+
+Build CPR
+
+Apply live odds
+
+Run 100,000 iteration Monte Carlo
+
+Build horizontals
+
+Build UTF slips
+
+Write reports + logs
+
+📁 OUTPUT LOCATIONS
+✔ UTF Bet Slips (what you actually use for betting):
+UTF_Output/
+    Race_1.txt
+    Race_2.txt
+    ...
+
+✔ Horizontal tickets:
+apex_horizontals.csv
+
+✔ Monte Carlo vertical tickets:
+verticals_mc_v1_3_exacta_tickets.csv
+verticals_mc_v1_3_trifecta_tickets.csv
+verticals_mc_v1_3_super_tickets.csv
+
+✔ Logs:
+logs/apex_log_YYYYMMDD.txt
+
+✔ Reports:
+out_reports/report_YYYYMMDD.txt

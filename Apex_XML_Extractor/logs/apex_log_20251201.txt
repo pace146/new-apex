@@ -1,0 +1,14 @@
+[2025-12-01 18:58:13] === APEX ONE-CLICK CARD RUNNER STARTED ===
+[2025-12-01 18:58:13] Running: apex_xml_extractor.py
+[2025-12-01 18:58:15] SUCCESS: apex_xml_extractor.py
+[2025-12-01 18:58:15] Running: apex_cleaner_v2.6.py
+[2025-12-01 18:58:17] SUCCESS: apex_cleaner_v2.6.py
+[2025-12-01 18:58:17] Running: apex_live_odds_integrator_pp.py
+[2025-12-01 18:58:18] ERROR while running apex_live_odds_integrator_pp.py: Command '['python', 'apex_live_odds_integrator_pp.py']' returned non-zero exit status 1.
+[2025-12-01 19:05:31] === APEX ONE-CLICK CARD RUNNER STARTED ===
+[2025-12-01 19:05:31] Running: apex_xml_extractor.py
+[2025-12-01 19:05:32] SUCCESS: apex_xml_extractor.py
+[2025-12-01 19:05:32] Running: apex_cleaner_v2.6.py
+[2025-12-01 19:05:33] SUCCESS: apex_cleaner_v2.6.py
+[2025-12-01 19:05:33] Running: apex_live_odds_integrator_pp.py
+[2025-12-01 19:05:34] ERROR while running apex_live_odds_integrator_pp.py: Command '['python', 'apex_live_odds_integrator_pp.py']' returned non-zero exit status 1.
